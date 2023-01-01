@@ -38,7 +38,7 @@ const About = () => {
            </div>
 
            <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni mollitia cupiditate officiis vero cum! Nostrum, iusto. Possimus neque expedita nesciunt error, eaque dolores sit, autem distinctio blanditiis ratione perspiciatis ea.
+           Hi there! My name is Egbonu Kenechukwu and I am a multi-talented individual with a diverse range of skills and interests. I am currently a front-end developer for RESBROTHERx( 🌍 ) and a technical writer✍, as well as a science teacher👨‍🔬 and a software engineering student👨‍💻 at ALX_AFRICA. With a strong background in computer science and a passion for creating user-friendly and visually appealing websites, I am dedicated to continuously learning and improving my skills as a developer. Thank you for visiting my portfolio website, and I hope you find my projects to be both informative and enjoyable.
            </p>
 
            <a href="#contact" className='btn btn-primary'>Lets Talk </a>
