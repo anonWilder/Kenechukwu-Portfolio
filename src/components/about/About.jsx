@@ -23,22 +23,22 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>6+ Months Working</small>
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>200+ Worldwide </small>
+              <small>4+ Worldwide </small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
-              <h5>Experience</h5>
-              <small>80+ Completed Projects</small>
+              <h5>Repositories</h5>
+              <small>20+ Repositories</small>
             </article>
            </div>
 
            <p>
-           Hi there! My name is Egbonu Kenechukwu and I am a multi-talented individual with a diverse range of skills and interests. I am currently a front-end developer for RESBROTHERx( 🌍 ) and a technical writer✍, as well as a science teacher👨‍🔬 and a software engineering student👨‍💻 at ALX_AFRICA. With a strong background in computer science and a passion for creating user-friendly and visually appealing websites, I am dedicated to continuously learning and improving my skills as a developer. Thank you for visiting my portfolio website, and I hope you find my projects to be both informative and enjoyable.
+           Hello and welcome to my professional portfolio! My name is Egbonu Kenechukwu and I am a versatile individual with a diverse range of skills and interests. As a Front-End Developer, I pride myself on creating visually stunning and intuitive websites that provide a seamless user experience. Additionally, I am a Technical Writer (✍) with a background in computer science and a passion for effectively communicating complex ideas. I am glad you have taken the time to visit my portfolio and I hope you find the projects on display to be informative and a showcase of my capabilities.
            </p>
 
            <a href="#contact" className='btn btn-primary'>Lets Talk </a>

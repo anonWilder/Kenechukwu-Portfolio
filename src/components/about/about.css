@@ -5,7 +5,7 @@
 }
 
 .about__me{
-    width: 100%;
+    width: 90%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(
@@ -74,6 +74,7 @@
     color: var(--color-light);
 }
 
+  
 /* =========================MEDIA QUERIES (MEDIUM DEVICES) ============================= */
 @media screen and (max-width: 1024px){
     .about__container {

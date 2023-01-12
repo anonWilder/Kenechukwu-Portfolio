@@ -9,31 +9,25 @@ const Portfolio = () => {
     <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
-
       <div className="container portfolio__container">
-
-        
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
             <h3>OPUS(WEB)</h3>
             <div className="portfolio__item-cta">
-              <a href="https;//github.com/anonWilder" className='btn'>GitHub</a>
-              <a href="https://netlify.com" className='btn btn-primary'>Live Demo</a>
+              <a href="https://github.com/anonWilder" className='btn' target='_blank'>GitHub</a>
+              <a href="https://accessify.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
             </div>
         </article>
-
-
-
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
-            <h3>REACT PORTFOLIO(WEB)</h3>
+            <h3>Tribute Website</h3>
             <div className="portfolio__item-cta">
-              <a href="https;//github.com/anonWilder" className='btn'>GitHub</a>
-              <a href="https://netlify.com" className='btn btn-primary'>Live Demo</a>
+              <a href="https://github.com/anonWilder" className='btn' target='_blank'>GitHub</a>
+              <a href="https://tribute4blankson.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
             </div>
         </article>
         <article className="portfolio__item">
@@ -42,8 +36,8 @@ const Portfolio = () => {
           </div>
             <h3>HOST-MONSTER(WEB)</h3>
             <div className="portfolio__item-cta">
-              <a href="https;//github.com/anonWilder" className='btn'>GitHub</a>
-              <a href="https://netlify.com" className='btn btn-primary'>Live Demo</a>
+              <a href="https://github.com/anonWilder" className='btn' target='_blank'>GitHub</a>
+              <a href="https://hostmonster.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
             </div>
         </article>
       </div>
