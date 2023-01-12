@@ -10,7 +10,21 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
+
+/* This div contains the content of the card */
+.blog__item-content {
+    /* Ensure that the content takes up all available space */
+    flex: 1;
+    /* Use grid layout to create a two-row layout */
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+
 
 .blog__item:hover{
     border-color: var(--color-primary-variant);
@@ -30,6 +44,10 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+    /* Position the button at the bottom of the container using Grid Layout*/
+    grid-row: 2;
+    /* position: absolute;
+    bottom: 0; */
 }
 
 /* =========================MEDIA QUERIES (MEDIUM DEVICES) ============================= */
