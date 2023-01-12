@@ -33,7 +33,7 @@ function Blog() {
                             <h3>{blog.title}</h3>
                         </div>
                         <div className="blog__item-cta">
-                            <a href={blog.link} target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Read More</a>
+                            <a href={blog.link} target="_blank" rel="noreferrer noopener" className='btn btn-primary'>Read More</a>
                         </div>
                     </article>
                 );
