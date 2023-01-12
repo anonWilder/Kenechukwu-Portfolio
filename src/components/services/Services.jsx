@@ -11,6 +11,35 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
+            <h3>Web Development</h3>
+          </div>
+
+          <ul className="service__list">
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Building and maintaining websites and web applications</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Implementing responsive design for mobile compatibility</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Optimizing website performance and security</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Testing and debugging web applications</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Integrating databases and backend systems</p>
+            </li>
+          </ul>
+        </article>
+{/* END OF WEB DEVELOPMENT */}
+        <article className="service">
+          <div className="service__head">
             <h3>Technical & Creative Writing</h3>
           </div>
 
@@ -42,38 +71,7 @@ const Services = () => {
           </ul>
         </article>
         {/* END OF TECHNICAL WRITING */}
-
         
-        <article className="service">
-          <div className="service__head">
-            <h3>Web Development</h3>
-          </div>
-
-          <ul className="service__list">
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Building and maintaining websites and web applications</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Implementing responsive design for mobile compatibility</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Optimizing website performance and security</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Testing and debugging web applications</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Integrating databases and backend systems</p>
-            </li>
-          </ul>
-        </article>
-
-        {/* END OF WEB DEVELOPMENT */}
         <article className="service">
           <div className="service__head">
             <h3>Content Creation</h3>
@@ -82,7 +80,7 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Developing ideas for and writing blog posts, articles, and other types of content</p>
+              <p>Developing contents for blog posts, articles, and other types of content</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
